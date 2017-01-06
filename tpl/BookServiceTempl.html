@@ -1,0 +1,59 @@
+<div data-role="header" id="page_header" data-position="fixed" 
+style="background-color:#3A579B !important;color: #fff; height: 8%; border: none; border-width: 0px">
+   <!-- background: url(css/images/pattern5.jpg); -->
+	<h1 id="header_name"
+		style="text-shadow: none; font-family: Glober thin; margin: 0px 0px 0px 30px;font-size:x-large; padding:5px;text-align:left">Book</h1>
+    <!-- <a class="ui-btn-left" id="back_btn" data-icon="back_btn" data-corners="false" 
+       data-shadow="false" data-iconshadow="false"></a> -->
+</div>
+
+<div data-role="main" class="ui-content" id="bookservice" style="padding:0px !important;height:92%;margin-top:-1px;">
+<!--<div class="bg1"></div>-->
+	<div class="bookservice_img">
+	    <h2 id="service_Name">data</h2>
+	</div>
+	<div data-role="collapsible" data-collapsed-icon="carat-d" data-iconpos="right" data-expanded-icon="carat-u" style="margin:0px">
+	<h2 >Price Starting From
+		<span style="float:right" id="starting_price">Rs.200</span>
+	<h2>
+	<ul data-role="listview" data-inset="false" id="bookservice_list">
+	</ul>	
+	</div>
+	<div class="ui-field-contain" class="datepick">
+		<label for="date_pick" style="width:40%;display:inline-block;margin-left:15px">Choose Date</label>
+		<input data-wrapper-class="date_pick" type="text" name="date_pick"  id="date_pick" placeholder="Pick Date" value="">
+	</div>
+	<div class="ui-field-contain">
+		<label for="time_pick" style="width:40%;display:inline-block;margin-left:15px">Choose Time</label>
+		<input data-wrapper-class="time_pick" type="text" name="time_pick" id="time_pick" placeholder="Pick Time" value="">
+	</div>
+	<div style="margin:20% 25% 5% 25%">
+        <button id="book_service_btn" class="ui-btn ui-shadow">Book Handyman</button>
+	</div>
+	
+	
+</div>  
+
+<div data-role="panel" id="left-panel" data-display="overlay"
+	style="background:#555C79;padding: 0px">
+     <!--url(css/images/pattern5.jpg) no-repeat;background-size:cover;-->
+		<h2 style="text-align:center;font-family:GeosansLight;font-weight:bold;text-shadow:none;color:#ffffff">GoKhelo</h2>
+	<div style="height: 15%">
+			<div id="groundname_sidemenu" style="font-size:1.5em;font-family: GeosansLight;color:#ffffff;text-shadow: none;padding-top:2%;">User Name</div>
+				<div id="location_sidemenu" style=" margin-left: 42px;font-family: GeosansLight;color:#ffffff;text-shadow: none;padding-top:5%;">Ground Name</div>
+	 <br>
+	</div>
+	<div style="height: 80%; padding-top: 10px;" id="sidemenudiv">
+		<ul data-role="listview" data-inset="false" class="sidemenu"
+			id="sidemenu" style="margin-top: 10%;">
+            <li data-icon="bullets"><a class="ui-btn ui-btn-icon-left ui-icon-bullets" id="bookyourground_menu">Book Your Ground</a></li>
+			<li data-icon="info"><a class="ui-btn ui-btn-icon-left ui-icon-info" id="statistics_menu">Statistics</a></li>
+			<li data-icon="action" ><a class="ui-btn ui-btn-icon-left ui-icon-action" id="mybookings_menu">My Bookings</a></li>
+            <li data-icon="eye"><a class="ui-btn ui-btn-icon-left ui-icon-eye" id="change_price">Change Price</a></li>
+			<!--<li data-icon="location"><a class="ui-btn ui-btn-icon-left ui-icon-location" id="grounds_menu">Your Grounds</a></li>-->
+            <li data-icon="power"><a class="ui-btn ui-btn-icon-left ui-icon-power" id="logout">Logout</a></li> 
+		</ul>
+		<div>
+		</div>
+	</div>
+</div>

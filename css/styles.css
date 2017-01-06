@@ -1,0 +1,401 @@
+#urb_splash{
+    background:#3A579B;
+}
+.urbserv_logo{
+    background: url('../img/sample.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.ui-panel-inner{
+    padding:0px;
+}
+.sidemenu li{
+    background: white;
+}
+.sidemenu li a{
+    background: white !important;
+    font-weight: normal;
+    text-shadow: none !important;
+}
+.ui-icon-loading {
+    background: url(../img//ajax-loader.gif) !important;
+    background-size: 2.875em 2.875em;
+}
+.ui-loader .ui-icon-loading{
+    display:none;
+}
+.ui-loader-verbose h1{
+    text-shadow: none;
+    font-weight: normal;
+}
+/************* Login *****************/
+#home{
+    background: white !important;
+}
+#email, #password{
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+}
+#email:focus, #password:focus{
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+}
+.ui-input-text.ui-custom {
+    border: none;
+    box-shadow: none;
+}
+#login_btn , #register_btn{
+    background:#3A579B;
+    color:white;
+    font-weight: normal;
+    text-shadow: none;
+}
+/************* Register *****************/
+#register{
+    background: white !important;
+}
+#mobileno, #register_password, #confirm_password{
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+}
+#mobileno:focus, #register_password:focus, #confirm_password:focus{
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+}
+.ui-input-text.ui-custom {
+    border: none;
+    box-shadow: none;
+}
+#getOTP_btn{
+    background:#3A579B;
+    color:white;
+    font-weight: normal;
+    text-shadow: none;
+}
+/************* Confirm OTP *****************/
+#otp_confirm{
+    background: white !important;
+}
+#otp_register{
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+}
+#otp_register:focus{
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+}
+.ui-input-text.ui-custom {
+    border: none;
+    box-shadow: none;
+}
+#confirm_otp_btn{
+    background:#3A579B;
+    color:white;
+    font-weight: normal;
+    text-shadow: none;
+}
+/************* User Details *****************/
+#user_details{
+    background: white !important;
+}
+#user_name, #user_mobileno, #user_address{
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+}
+#user_name:focus, #user_mobileno:focus, #user_address:focus{
+    border-bottom: 2px solid blue;
+    border-radius: 0px;
+}
+.ui-input-text.ui-custom {
+    border: none;
+    box-shadow: none;
+}
+#save_details_btn{
+    background:#3A579B;
+    color:white;
+    font-weight: normal;
+    text-shadow: none;
+}
+.inputdiv label {
+    font-size: 12px;
+    font-weight: bold;
+}
+/************* Home *****************/
+.search_list{
+    padding:0px 10px 10px 10px;
+}
+.search_list li{
+    border-radius: 0px !important;
+}
+.search_list li a{
+    border:none;
+    background-color: white !important;
+    border-radius: 0px;
+    text-shadow: none;
+    color:black;
+    font-weight: normal;
+}
+.ui-focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+.noshadow{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.ui-header-fixed.ui-fixed-hidden{
+    top: -1px;
+    padding-top: 1px;
+}
+.ui-header-fixed .ui-btn-left, .ui-header-fixed .ui-btn-right{
+    margin-top:1px !important;    
+}
+
+#categories_list{
+    margin-top:20px;
+}
+#categories_list li{
+    height:135px;
+    margin: 0px 10px 0px 10px;
+    border: none;
+    padding: 0 16px 10px 16px;
+}
+.darken {
+  /*background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/Electrical image.jpg');*/
+    background-repeat: no-repeat;
+    height:100%;
+    border-radius: 10px;
+    background-size: cover;
+    margin:0px 10px 5px 10px;
+}
+.darken h2 {
+    font-weight: normal !important;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 30px !important;
+    transform: translate(-50%, -50%);
+    text-shadow: none;      
+}
+.ui-input-has-clear{
+    padding: 5px;
+    margin: 10px 10px 0 10px;
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius:0px;
+}
+
+/************* Sub Category *****************/
+#subcategories_list {
+    padding:1%;
+    background: white;
+}
+#subcategories_list li{
+    height: 130px;
+    width: 33%;
+    box-shadow: 3px 3px 2px #ccc;
+    float:left;
+    margin:0 0 1px 1px;
+    border:none !important;
+}
+.subcategory_li_img{
+    
+    background-position: center !important;
+    height: 85%;
+    background-repeat: no-repeat !important;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 33.3%;
+    /*margin: 0 0 1px 0.5px;*/
+    box-shadow: 1px 1px 0.5px #ccc;
+    border: none !important;
+    height: 130px;
+    padding: 10px;
+}
+div.item:nth-child(3) {
+    box-shadow:0px 1px 0px #ccc !important;
+}
+div.item:nth-child(6) {
+    box-shadow:0px 1px 0px #ccc !important
+}
+div.item:nth-child(7) {
+    box-shadow:1px 0px 0px #ccc !important
+}
+div.item:nth-child(8) {
+    box-shadow:1px 0px 0px #ccc !important
+}
+div.item:nth-child(9) {
+    box-shadow:1px 0px 1px #ccc !important;
+}
+.sub_image {
+    width: 70px;
+    height: 80px;
+}
+.caption {
+    display: block;
+    /* text-overflow: ellipsis; */
+    white-space: pre;
+    font-size: 14px;
+    text-shadow: none;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+/************* BookService *****************/
+.bookservice_img{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/Electrical image.jpg');
+    background-repeat: no-repeat;
+    height:30%;
+    background-size: cover;
+}
+.bookservice_img h2 {
+    font-weight: bold !important;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    font-size: large !important;
+    transform: translate(-50%, -50%);
+    text-shadow: none;      
+}
+#starting_price{
+    float:right;
+}
+#bookservice_list {
+    padding:0px;
+    font-size: medium;
+    margin:0px;
+
+}
+#bookservice_list li{
+    padding:10px;
+    min-height:40px;
+    border-bottom: 1px solid #ccc;
+}
+#bookservice_list li span{
+    font-weight:normal;
+}
+.ui-collapsible-inset .ui-collapsible-content{
+    border-bottom: none;
+    padding:0px;
+
+}
+.date_pick{
+    width:50%;
+    display:inline-block;
+    box-shadow: none;
+}
+.time_pick{
+    width:50%;
+    display:inline-block;
+    box-shadow: none;
+}
+#book_service_btn{
+    background:#3A579B;
+    color:white;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+
+#frame
+{
+        position:fixed;
+        height:100vh;/*150vh*/
+        width:100vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+.find_explain{
+    background: url('../img/ExplainScreens/Find.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:1px solid #ccc;
+    height:60%;
+    margin:20px;
+}
+.fix_explain{
+    background: url('../img/ExplainScreens/Fix.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:1px solid #ccc;
+    height:60%;
+    margin:20px;   
+}
+.book_explain{
+    background: url('../img/ExplainScreens/Book.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:1px solid #ccc;
+    height:60%;
+    margin:20px;
+}
+.explain_title{
+   height:10%;
+   font-style: 24px;
+   font-weight: :normal;
+   color:#3A579B;
+}
+.explain_content{
+   height:12%;
+}
+.explain_move{
+   height:10%;
+   text-align: center;
+}
+/*sliding navigation between the slides*/
+#frame ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0;
+    height:100vh;
+    list-style-type: none;
+    -webkit-transform-style: preserve-3d;/*YAY lag is fixed on firefox*/
+    -ms-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#frame ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    width: 100vw;
+    height: 100%;
+    padding:20px;
+
+}
+.video_holder{
+    height:100%;
+}
+#video_player{
+    width:100%;
+    height:100%;
+}
+
+

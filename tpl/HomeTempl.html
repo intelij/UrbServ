@@ -1,0 +1,46 @@
+<div data-role="header" id="page_header" data-position="fixed" style="background-color:#3A579B !important;color: #fff;">
+   <!-- background: url(css/images/pattern5.jpg); -->
+	<h1 id="header_name" style="text-align:left;margin-left:12%;text-shadow: none">Find</h1>
+		<!-- <a href="#left-panel" data-icon="bars" ></a> -->
+		<a href="#left-panel" class="ui-btn-left ui-alt-icon ui-nodisc-icon ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button" style="margin-top:4px !important"></a>
+
+   <!--  <a class="ui-btn-left" id="back_btn" data-icon="back_btn" data-corners="false" 
+       data-shadow="false" data-iconshadow="false"></a> -->
+</div>
+
+<div data-role="main" class="ui-content" id="home" style="padding:0px !important;height:92%;">
+<div style="margin-top:20px">
+	<form class="ui-filterable">
+	<input id="search" data-type="search" class="nohalo" placeholder="Geyser Repair,Fan Repair...etc">
+</form>
+</div>
+
+<ul data-role="listview" data-filter="true" data-input="#search" data-filter-reveal="true"  data-inset="true" data-shadow="false" style="margin:0px" class="search_list"></ul>
+<div style="height:30px">
+	<span style="float:left;margin-left:20px">CATEGORIES</span>
+	<p style="float:right;margin-right:40px;color:dimgrey">All Services</p>
+</div>
+    <div>
+        <ul data-role="listview" id="categories_list">
+           <!--  <li><div class="darken"> <h2></h2></div></li> -->
+        </ul>
+    </div>
+</div>  
+
+<div data-role="panel" id="left-panel" data-display="overlay"
+	style="padding: 0px;text-align:center;">
+     <!--url(css/images/pattern5.jpg) no-repeat;background-size:cover;-->
+	<div style="height: 15%;margin: 15px">
+			<img src="img/urbserv_logo.png" />
+	</div>
+	<div style="height: 80%;" id="sidemenudiv">
+		<ul data-role="listview" data-inset="false" class="sidemenu"
+			id="sidemenu" style="">
+            <li data-icon="bullets"><a class="ui-btn ui-btn-icon-left ui-icon-bullets" id="home_menu">Home</a></li>
+			<li data-icon="info"><a class="ui-btn ui-btn-icon-left ui-icon-info" id="past_bookings_menu">Past Bookings</a></li>
+			<li data-icon="action" ><a class="ui-btn ui-btn-icon-left ui-icon-action" id="account_settings_menu">Account Settings</a></li>
+		</ul>
+		<div>
+		</div>
+	</div>
+</div>
